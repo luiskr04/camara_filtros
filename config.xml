@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.luisLxSk04.camara" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>CamFil</name>
+    <description>
+        Aplicacion en la que se pueden aplicar varios filtros a fotogafias tomadas por camra o galeria.
+    </description>
+    <author email="luis.angel.dh@gmail.com" href="https://www.gmail.com">
+        Dev SkLx
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

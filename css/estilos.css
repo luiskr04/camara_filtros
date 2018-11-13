@@ -1,0 +1,66 @@
+body{
+	margin:0px;
+	padding:20px 0;
+	font-size:18px;
+	font-family:Arial;
+	font-weight:300;
+}
+
+.header{
+	padding:0 10px;
+	color:#666;
+	background:#EEE;
+	text-align:center;
+	height:48.4px;
+	line-height:48.4px;
+}
+
+.footer{
+	padding:5px;
+	font-style:italic;
+	font-size:small;
+	text-align:center;
+}
+
+#foto{
+	height:400px;
+	border:1px solid;
+	margin:1%;
+	box-sizing:border-box;
+	width:98%;
+}
+
+.button-container{
+	margin:1rem;
+	text-align:center;
+}
+
+.boton{
+	border:1px solid;
+	color:#FFF;
+	padding:10px;
+}
+
+#boton-act{
+	font-size:large;
+	border-radius:10px;
+	background:#FD4140;
+}
+
+#icono{
+	height: 48.4px;
+	width: 65px;
+}
+
+.boton-filtro{
+	font-size:medium;
+	width:6rem;
+	background:#7ABAF2;
+	border-radius:10px;
+}
+
+.boton-galeria{
+	font-size:large;
+	background:#92BA3F;
+	border-radius:10px;
+}
