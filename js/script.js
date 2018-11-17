@@ -45,19 +45,19 @@ var app = {
 	fotoTomada: function(imageURI){
 		var image = document.createElement('img');
 
-		img.onload = function(){
-			app.pintarFoto(img);
+		image.onload = function(){
+			app.pintarFoto(image);
 		}
-		img.src = imageURI;
+		image.src = imageURI;
 	},
 
 	//funcion pintar foto
-	pintarFoto: function(img){
+	pintarFoto: function(image){
 		var canvas = document.querySelector('#foto');
 		var context = canvas.getContext('2d');
-		canvas.width = img.width;
-		canvas.height = img.height;
-		context.drawImage(img, 0, 0, img.width, img.height);
+		canvas.width = image.width;
+		canvas.height = image.height;
+		context.drawImage(image, 0, 0, image.width, image.height);
 	},
 
 	errorAlTomarFoto: function(){
