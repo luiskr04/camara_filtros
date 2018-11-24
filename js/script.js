@@ -26,6 +26,11 @@ var app = {
 		filterButtons[2].addEventListener('click', function(){
 			app.aplicarFiltro('sepia');
 		});
+
+		var buttonGallery = document.querySelector('#boton-galeria');
+		buttonGallery.addeventListener('click', function(){
+			app.cargarFoto(Camera.PictureSourceType.PHOTOLIBRARY);
+		});
 	},
 
 	/*Acceso al plugin de cordova*/
