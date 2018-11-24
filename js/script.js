@@ -29,7 +29,7 @@ var app = {
 
 		var buttonGallery = document.querySelector('#boton-galeria');
 		buttonGallery.addEventListener('click', function(){
-			app.cargarFoto(Camera.PictureSourceType.PHOTOLIBRARY);
+			app.cargarFoto(Camera.PictureSourceType.PHOTOLIBRARY)
 		});
 	},
 
