@@ -28,7 +28,7 @@ var app = {
 		});
 
 		var buttonGallery = document.querySelector('#boton-galeria');
-		buttonGallery.addeventListener('click', function(){
+		buttonGallery.addEventListener('click', function(){
 			app.cargarFoto(Camera.PictureSourceType.PHOTOLIBRARY);
 		});
 	},
